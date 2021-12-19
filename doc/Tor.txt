@@ -50,10 +50,10 @@ reachable from the Tor network. Add these lines to your /etc/tor/torrc (or equiv
 config file):
 
   HiddenServiceDir /var/lib/tor/dgcoin-service/
-  HiddenServicePort 1893 127.0.0.1:1893
+  HiddenServicePort 1898 127.0.0.1:1898
 
 The directory can be different of course, but (both) port numbers should be equal to
-your dgcoind's P2P listen port (1893 by default).
+your dgcoind's P2P listen port (1898 by default).
 
 -externalip=X   You can tell dgcoin about its publicly reachable address using
                 this option, and this can be a .onion address. Given the above
@@ -83,7 +83,7 @@ specify:
 
   ./dgcoind ... -discover
 
-and open port 1893 on your firewall (or use -upnp).
+and open port 1898 on your firewall (or use -upnp).
 
 If you only want to use Tor to reach onion addresses, but not use it as a proxy
 for normal IPv4/IPv6 communication, use:
