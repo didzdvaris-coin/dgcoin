@@ -1,5 +1,6 @@
 # dgcoin
-not finished
+not finished, can register at the web-wallet tho.
+http://www.didzdvaris-coin.lt
 
 # dependencies 
 sudo apt-get update
